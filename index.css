@@ -127,4 +127,24 @@ main > main > img
   position: right;
 
 }
+ul > a > img {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(26, 255, 0); 
+  position: relative; 
+  border-radius: 15%;
+  animation: animate 0.7s infinite
 
+}
+
+
+header > h1{
+  animation-name: animate;
+  animation-duration: 4s infinite
+}
+
+@keyframes animate {
+  from {background-color: rgb(85, 0, 255);};
+  to {background-color: yellow;}
+
+}
