@@ -141,10 +141,10 @@ ul > a > img {
 header > h1{
   animation-name: animate;
   animation-duration: 4s infinite
-}
+/* }
 
 @keyframes animate {
   from {background-color: rgb(85, 0, 255);};
   to {background-color: yellow;}
 
-}
+} */
