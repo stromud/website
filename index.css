@@ -6,7 +6,7 @@ body, html {
 }
 
 body {
-  background: url(./images/bg01.jpg) no-repeat center center fixed;
+  background: url(/images/bg01.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -121,30 +121,42 @@ main > main > img
   width: 2em;
   height: 2em;
   border-radius: 100%;
-  border: 1px solid #fff;
-  box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
-  flex-direction: row;
-  position: right;
+  border: 1px solid rgb(190, 13, 13);
+  box-shadow: rgba(0, 138, 35, 0.24) 0px 2px 8px 0px;
 
 }
 ul > a > img {
   width: 30px;
   height: 30px;
   background-color: rgb(26, 255, 0); 
+  background-color: rgb(218, 148, 87); 
+
   position: relative; 
-  border-radius: 15%;
-  animation: animate 0.7s infinite
+  border-radius: 20%;
+  animation: animate 5s infinite
 
 }
 
-
-header > h1{
-  animation-name: animate;
-  animation-duration: 4s infinite
-/* }
 
 @keyframes animate {
   from {background-color: rgb(85, 0, 255);};
   to {background-color: yellow;}
 
-} */
+}
+
+
+
+header > h1{
+
+  animation-name: animate;
+  animation-duration: 4s infinite;
+
+  background-color: rgb(43, 0, 15); 
+  background-color: rgb(26, 255, 0); 
+  background-color: rgb(218, 148, 87); 
+
+  position: relative; 
+  border-radius: 15%;
+  animation: animate 0.7s infinite
+
+}
