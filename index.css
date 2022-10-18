@@ -56,7 +56,7 @@ header > img {
 
 }
 
-header > h1 {
+main > main > h1 {
   display: inline-block;
   font-size: 2em;
   font-weight: bold;
@@ -75,7 +75,6 @@ ul {
   margin: 0 auto;
   padding: 2em;
   max-width: 480px;
-  
 }
 
 ul > li {
@@ -94,6 +93,7 @@ ul > li > a {
   align-items: center;
   gap: 0.5em;
   padding: 1em;
+  
 }
 
 a {
@@ -107,6 +107,7 @@ ul > a
   flex-direction: row;
   margin: 1.4em 0;
   
+  
 }
 main > main {
   margin: 0.3em 0.3em;
@@ -115,6 +116,8 @@ main > main {
   align-items: center;
   
 }
+
+
 main > main > img
 {
   margin-right: auto;
@@ -123,6 +126,7 @@ main > main > img
   border-radius: 100%;
   border: 1px solid rgb(190, 13, 13);
   box-shadow: rgba(0, 138, 35, 0.24) 0px 2px 8px 0px;
+  
 
 }
 ul > a > img {
@@ -135,6 +139,8 @@ ul > a > img {
   border-radius: 20%;
   animation: animate 5s infinite
 
+  
+
 }
 
 
@@ -144,19 +150,43 @@ ul > a > img {
 
 }
 
-
-
-header > h1{
+main > main > h1{
 
   animation-name: animate;
-  animation-duration: 4s infinite;
+  animation-duration: 2s ;
 
   background-color: rgb(43, 0, 15); 
   background-color: rgb(26, 255, 0); 
   background-color: rgb(218, 148, 87); 
 
   position: relative; 
-  border-radius: 15%;
-  animation: animate 0.7s infinite
+  border-radius: 14%;
+  animation: animate 3s ;
+  width: auto;
+  height: 2em;
+  
 
+}
+main > main > h1{
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0 auto;
+  max-width: 480px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+main > main > h1 >img{
+  /* box-sizing: border-box; */
+  list-style: none;
+  /* margin: 0 auto; */
+  max-width: 480px;
+  display: flex;
+  /* flex-direction: row; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* gap: 0.5em; */
+  position: high;
 }
